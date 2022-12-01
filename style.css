@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.page{
+    display: flex;
+}
+.page a {
+    color: #222;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .2s;
+    cursor: pointer;
+}
+
+.page a.active{
+    background-color: orangered;
+    color: white;
+}
+.page a:hover:not(.active){
+    background: #ddd;
+}
