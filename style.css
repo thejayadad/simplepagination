@@ -16,11 +16,14 @@ body {
     text-decoration: none;
     transition: background-color .2s;
     cursor: pointer;
+    border-radius: 4px;
+
 }
 
 .page a.active{
     background-color: orangered;
     color: white;
+    border-radius: 4px;
 }
 .page a:hover:not(.active){
     background: #ddd;
